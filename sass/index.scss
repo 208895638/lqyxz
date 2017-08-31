@@ -1,0 +1,771 @@
+body,html{
+//  width:100%;
+//  width: 1201px;
+//  height:100%;
+}
+.swiper-pagination-bullet-active{
+    background: #dfc77f!important;
+}
+.swiper-pagination{
+    z-index: 100;
+}
+.index{
+    width:100%;
+    .indexFix{
+        position: fixed;
+        width:40px;
+        height:100%;
+        top:0px;
+        right:3px;
+        z-index: 99;
+        .indexFixNone{
+            display: none;
+        }
+        .indexFixC{
+            position: relative;
+            width:100%;
+            height:100%;
+            .indexFixT{
+                position: absolute;
+                top:30%;
+                top:calc(50% - 70px);
+                top:-moz-calc(50% - 70px);
+                top:-webkit-calc(50% - 70px);
+                
+                right:1px;
+                cursor: pointer;
+                img{
+                    height:39px;
+                    display: block;
+                }
+            }
+            .indexFixB{
+                position: absolute;
+                top:calc(50% + 30px);
+                top:-moz-calc(50% + 30px);
+                top:-webkit-calc(50% + 30px);
+                right:1px;
+                cursor: pointer;
+                img{
+                    height:39px;
+                    display: block;
+                }
+            }
+        }
+        
+    }
+    .indexCon{
+        width:100%;
+        .indexFirst{
+            width:100%;
+            position: relative;
+            #video{
+                width:100%;
+                position: absolute;
+                height:100%;
+//              z-index: ;
+            }
+//          background:url(../img/index_banner.png) no-repeat center ;
+            background-size: cover;
+            .indexFirstCon{
+               position: relative;
+                width:1201px;
+                height:100%;
+                padding-top:5%;
+                margin:0 auto;
+                .indexFMainT{
+                    width:100%;
+                    height:100%;
+                    .indexFMainTL{
+                        height:12%;
+                        img{
+                            display: block;
+                            height:100%;
+                        }
+                    }
+                    .indexFMainTR{  
+                        height:8%;
+                        margin-top:4.3%;                      
+                        .indexFMainTRT{
+//                          margin-top: 39px;
+                            
+                            margin-bottom: 8%;
+                            ul{
+                                height:37%;
+                                li{
+                                    margin-right:22px;
+                                    a{
+                                        display: block;
+                                        height:100%;
+                                        img{
+                                            height:100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .indexFMainTRB{
+                            height:37%;
+                            span{
+                                color:#a69365;
+                                display: block;
+                                height:28px;
+                                line-height: 28px;
+                                font-size:12px ;
+                                margin-right: 16px;
+                                font-family: "微软雅黑";
+                            }
+                            ul{
+                                li{
+                                    margin-right: 9px;
+                                    a{
+                                        display: block;
+                                        img{
+                                            display: block;
+                                            width: 28px;
+                                        }
+                                    }
+                                    em{
+                                        display: block;
+                                        img{
+                                            display: block;
+                                            height:90px;
+                                        }
+                                    }
+                                }
+                            }
+                            .indexFMainTRBDisImg{
+                                position: relative;
+                                top:36px;
+                                left:18px;                               
+                                .indexFMainTRBDisImgCon{
+                                    position: absolute;
+                                    .indexFMainTRBDisImgN{
+                                        opacity: 0;
+                                        filter:Alpha(opacity=50);
+                                    }
+                                    em{
+                                       display: block;
+                                        img{ 
+                                            display:inline-block;
+                                            
+                                            width:79px;
+                                        }
+                                    }
+                                    em:nth-child(2){
+                                       margin-left:-42px; 
+                                    }
+                                    em:nth-child(3){
+                                       margin-left:-42px; 
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+                .indexFMainB{
+                    position: absolute;
+                    width:100%;
+                    height:37%;
+                    left:0;
+                    right:0;
+                    bottom:10%;
+                    margin:0 auto;
+                   .indexFMainBT{     
+                       height:58%;                 
+                       img{
+                            display: block;
+                            margin:0 auto;
+                            height:100%;
+                       }
+                   }
+                   .indexFMainBB{
+                       cursor: pointer;
+                       display: inline-block;
+                       width:468px;
+                       height:131px;
+                       padding-top: 9px;
+                       padding-left: 18px;
+                       background: url(../img/index_radius.png) no-repeat center;
+                       background-size: cover;
+                       .indexFMainBBL{
+                           margin-right: 12px;
+                           img{
+                               
+                               height:119px;
+                               display: block;
+                               animation:myfirst 5s infinite linear;
+                           }
+                           @keyframes myfirst
+                            {
+                            from {transform:rotate(180deg);}
+                            to {transform:rotate(-180deg);}
+                            }
+                       }
+                       .indexFMainBBC{
+                           margin-right: 16px;
+                           img{
+                               display: block;
+                               height:49px;
+                               width:172px;
+                           }
+                           img:nth-child(1){
+                               margin:6px 0 11px 0;
+                           }
+                       }
+                       .indexFMainBBR{
+                           img{
+                               display: block;
+                               width:121px;
+                           }
+                       }
+                   }
+                }
+            }
+        }
+        .indexSec{
+            width:100%;
+            height:100%;
+            background:url(../img/index2_bg.png) no-repeat;
+            background-size: cover;
+            .indexSecCon{
+                width:1201px;
+                height:85%;    
+                padding-top:15%;       
+                margin:0 auto;
+                .indexSecT{
+                    height:24%;
+                    img{
+                        display: block;
+                        
+                        height:19%;
+                        margin:0 auto;
+                    }
+                }
+                .indexSecB{
+                    width:100%;
+                    height:43%;
+                    .indexSecBT{
+                        width:42%;
+//                      margin-bottom: 22px;
+//                      margin-left:2%;
+                        height:100%;
+                        position: relative;
+                        b{
+                            display: block;
+                            width:100%;
+                            height:100%;
+                            border:1px solid #bfa059;
+                            margin:0 auto;
+                            img{
+                                display: block;
+//                              width:auto;
+//                              width:349px;
+                                height:100%;
+                                margin: 0 auto;
+                            }
+                        } 
+                        span{
+                            img{
+                            position: absolute;
+                            display: block;
+                            width:68px;                         
+                            left:0;
+                            top:0;
+                            right:0;
+                            bottom:0;
+                            margin: auto;
+                            cursor: pointer;
+                        }     
+                        }                      
+                        
+                    }
+                    .indexSecBB{
+                        margin:0 auto;
+                        width:42%;
+                        height:98%;
+                        padding:1% 0;
+                        font-size:13px ;
+                        color:#eaeae9;
+                        line-height:21px ;
+//                      margin-right: 2%;
+                        text-align: left;
+                        position: relative;
+                        h2{
+                            width:100%;
+                            color:#bba967;
+                            font:29px/42px "微软雅黑";
+                            text-align: center;
+                            margin-bottom: 8px;
+//                          background: url(../img/index_title_line.png) no-repeat center bottom;
+                        }
+                        .indexSecBBT{
+                            width:100%;
+                            background: url(../img/index_title_line.png) no-repeat center top;
+                            height:100%!important;
+                            overflow-y: auto;
+                            padding-top:23px;
+                            p{
+                               line-height:21px ;
+                                text-align: center; 
+                                 font-size:14px ;
+                            }
+//                          .indexSecBBMask{
+//                              position: absolute;
+//                              width:100%;
+//                              height: 30px;
+//                              opacity: 0.3;
+//                              bottom:0;
+//                              background: -webkit-linear-gradient(#fff, #000); 
+//                              background: -o-linear-gradient(#fff, #000); 
+//                              background: -moz-linear-gradient(#fff, #000); 
+//                              background: linear-gradient(#fff, #000);
+//                          }
+                        }
+                       
+                    }
+                     .indexSecBBZheZhao{
+                            width:100%;
+                            height:100%;
+                            background: #000;
+                            position: absolute;
+                            left:0;
+                            top:0;
+                            z-index: 999;
+                            .indexSecBBZheZhaoCon{
+                                width:100%;
+                                height:100%;
+                                position: relative;
+                                left:0;
+                                top:0;
+                                video{
+                                    width:500px;
+                                    height:500px;
+                                    border:1px solid #fff;
+                                    margin:auto;
+                                    position: absolute;
+                                    left:0;
+                                    top:0;
+                                    right:0;
+                                    bottom:0;
+                                    display: block;
+                                }
+                                   
+                                                         
+                            }                           
+                        }
+                        .indexSecBBZheZhaoNone{
+                            display: none;
+                        }
+                }
+            }
+            
+        }
+        .indexThree{
+            width:100%;
+            height:100%;
+            background:url(../img/index3_bg.png) no-repeat;
+            background-size: cover;
+            
+            .indexTCon{
+                position: relative;
+                width:1401px;
+                height:85%;     
+                padding-top:15%;
+                margin:0 auto;
+                .indexTConT{
+//                  margin-top:41px;    
+                    height:17%;
+                    
+                    img{
+                        display: block;
+                        height:24%;
+//                      padding:122px 0 91px 0;
+                        margin:0 auto;
+                    }
+                }
+                .indexTConB{
+                    width:100%;
+                    height:50%;
+                    position: relative;
+                    .indexTConBT{
+                        z-index: 99;
+                        display: inline-block;
+                        margin:0 auto;
+                        height:100%;
+//                      width:100%;
+                        li{
+//                          width:16.6%;
+                            height:100%;
+                            a{
+//                              width:100%;
+                                height:100%;
+                                display: block;
+                                .indexTConBTN{
+                                    height:86%;
+//                                  width:100%;
+                                    img{
+//                                      width:100%;
+                                        display: block;
+                                        height:100%;
+                                    }
+                                }
+                                .indexTConBTS{
+//                                  width:100%;
+                                    height:100%;
+                                    position: relative;
+                                     dl{
+//                                      width:100%;
+                                        display: block;
+                                        height:100%;
+                                        dt{
+//                                          width:100%;
+                                            height:86%;
+                                           img{
+//                                             width:100%;
+                                                display: block;
+                                                height:100%;
+                                            } 
+                                        }
+                                        dd{
+//                                          width:100%;
+                                            height:13.4%;
+                                           img{
+//                                             width:100%;
+                                                display: block;
+                                                height:100%;
+                                            } 
+                                        }
+                                    }
+                                    span{                                  
+                                        position: absolute;                                    
+                                        left:0;
+                                        top:0;
+                                        right:0;
+                                        bottom:0;
+                                        margin:auto;
+                                        em{
+                                            width:100%;
+                                            height:100%;
+                                            position: relative;
+                                            display: block;
+                                            img{    
+                                                position: absolute;
+                                                left:0;
+                                                top:0;
+                                                right:0;
+                                                bottom:0;
+                                                margin:auto;                           
+                                                height:61px;
+                                                display: block;
+                                            }
+                                        }                                
+                                        
+                                    }
+                                }
+                                .indexTConBTSNone{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    .indexTConBB{
+                        display: inline-block;
+                        position: absolute;
+                        top:0;        
+                        left:0;
+                        right:0;              
+                        margin:0 auto;
+                        width:1165px;
+                        li{
+                           
+                            a{
+                                 position: relative;
+                                left:0;
+                                top:0;
+                                display: block;
+                                dl{
+                                    display: block;
+                                    dt{
+                                       img{
+                                            display: block;
+                                            width:194px;
+                                        } 
+                                    }
+                                    dd{
+                                       img{
+                                            display: block;
+                                            width:194px;
+                                        } 
+                                    }
+                                }
+                                span{                                  
+                                    position: absolute;                                    
+                                    left:0;
+                                    top:0;
+                                    right:0;
+                                    bottom:0;
+                                    margin:auto;
+                                    em{
+                                        width:100%;
+                                        height:100%;
+                                        position: relative;
+                                        display: block;
+                                        img{    
+                                            position: absolute;
+                                            left:0;
+                                            top:0;
+                                            right:0;
+                                            bottom:0;
+                                            margin:auto;                           
+                                            height:61px;
+                                            display: block;
+                                        }
+                                    }                                
+                                    
+                                }
+                            }
+                        }
+                    }
+                    .indexTConBBNone{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .indexFour{
+//          width:100%!important;
+//          
+//          height:85%!important;
+            background:url(../img/index4_bg.png) no-repeat ;
+            background-size: cover;
+            overflow-y: hidden;
+//          padding-top: 10%;
+            .indexF{
+                width:1201px;
+                margin:0 auto;
+                height:85%;
+                padding-top:15%;
+                .indexFcon{
+//                  margin-top:41px;
+                    height:13%;
+                    img{
+                        display: block;
+                        height:32%;
+//                      padding:122px 0 86px 0;
+                        margin:0 auto;
+                    }
+                }
+                .indexFB{
+                    width:100%;
+                    height:70%;
+                    .swiper2{
+                        width:100%;
+                        height:81%;
+                        .swiper2Con{
+                            width:100%;
+                            height:100%;
+                            .swiper2ConL{
+                                width:auto;
+                                height:100%;
+                                img{
+                                    display: block;
+                                   width:auto;
+                                    height:100%;  
+                                }
+                                                           
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .indexFive{
+            width:100%;
+            height:100%;
+            .indexFi{
+                width:100%;
+                height:100%;
+                position: relative;
+                background: #202020;
+               .indexFiCon{
+                   position: absolute;
+                   bottom:0;
+                   width:100%;
+                   height:100%;
+                   background: #202020;
+                   .inFiBg{
+                       width:100%;
+                       height:57%;
+                       background:url(../img/index_bot_bg.png) no-repeat center ;
+                       background-size:cover ;
+                       padding-top:10%;
+                       text-align: center;
+                       position: relative;
+                       h2{
+                           width:32px;
+                           height:3px;
+                           background: #fff;
+                           margin:14px auto;
+                           
+                       }
+                       h3,h4{
+                           font:19px/38px "微软雅黑";
+                           text-align: center;
+                           color:#e9e9ea;
+                       }
+                       ul{
+                        width:1200px;
+                        padding-top:6%;
+                        height:45%;
+                        margin:0 auto;
+                        li{
+                            margin-left: 15.5%;
+                            height:100%;
+                            dl{
+                                height:100%;
+                                dt{
+                                    height:58%;
+                                    img{
+                                        display: block;
+                                        height:100%;
+                                    }
+                                    margin-bottom:25px;
+                                }
+                                dd{
+                                    line-height: 24px;
+                                    text-align: center;
+                                    font-size: 15px;
+                                    color:#a7a7a7;
+                                }
+                            }
+                        }
+                        li:nth-child(2){
+                            margin-right: 15.5%;
+                        }
+                    }
+                   }
+                    
+                    .indexFiConB{
+                        width:100%;
+                        background: #000;
+                        height:28%;
+                        padding-top:2%;
+                        p{
+                            font-size: 12px;
+                            color:#b8b8b8;
+                            text-align: center;
+                            line-height: 24px;
+                        }
+                    }
+               }
+               
+            }
+        }
+    }
+}
+@media screen and (min-height: 700px) {
+    .indexFive{
+            width:100%;
+            height:100%;
+            .indexFi{
+                width:100%;
+                height:100%;
+                position: relative;
+                background: #202020;
+               .indexFiCon{
+                   position: absolute;
+                   bottom:0;
+                   width:100%;
+                   height:100%;
+                   background: #202020;
+                   .inFiBg{
+                       width:100%;
+                       height:57%;
+                       background:url(../img/index_bot_bg.png) no-repeat center ;
+                       background-size:cover ;
+                       padding-top:10%;
+                       text-align: center;
+                       position: relative;
+                       h2{
+                           width:32px;
+                           height:3px;
+                           background: #fff;
+                           margin:14px auto;
+                           
+                       }
+                       h3,h4{
+                           font:19px/38px "微软雅黑";
+                           text-align: center;
+                           color:#e9e9ea;
+                       }
+                       ul{
+                        width:1200px;
+                        padding-top:10%;
+                        height:41%;
+                        margin:0 auto;
+                        li{
+                            margin-left: 15.5%;
+                            height:100%;
+                            dl{
+                                height:100%;
+                                dt{
+                                    height:80%!important;
+                                    img{
+                                        display: block;
+                                        height:100%;
+                                    }
+                                    margin-bottom:25px;
+                                }
+                                dd{
+                                    line-height: 24px;
+                                    text-align: center;
+                                    font-size: 15px;
+                                    color:#a7a7a7;
+                                }
+                            }
+                        }
+                        li:nth-child(2){
+                            margin-right: 15.5%;
+                        }
+                    }
+                   }
+                    
+                    .indexFiConB{
+                        width:100%;
+                        background: #000;
+                        height:25%!important;
+                        padding-top:5%!important;
+                        p{
+                            font-size: 12px;
+                            color:#b8b8b8;
+                            text-align: center;
+                            line-height: 24px;
+                        }
+                    }
+               }
+               
+            }
+        }
+}
+.videoMain{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: rgba(000,000,000,0.7);
+    z-index: 999;
+    video{
+        position: absolute;
+        left:0;
+        top:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+    }
+}
+.videoMainNone{
+    display: none;
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body, html {
+  min-width: 1242px;
+  min-height: 2102px; }
+
+.raiderCon {
+  position: relative;
+  padding-top: 387px;
+  width: 1242px;
+  margin: 0 auto; }
+  .raiderCon .raiderConL {
+    width: 383px;
+    height: 513px;
+    background: rgba(0, 0, 0, 0.7); }
+    .raiderCon .raiderConL ul li {
+      width: 383px; }
+      .raiderCon .raiderConL ul li a {
+        display: block; }
+        .raiderCon .raiderConL ul li a img {
+          display: block;
+          margin: 0 auto; }
+    .raiderCon .raiderConL ul li:nth-child(1) img {
+      padding: 29px 0; }
+    .raiderCon .raiderConL ul li:nth-child(2) img {
+      margin-bottom: 40px; }
+    .raiderCon .raiderConL ul li:nth-child(3) img {
+      margin-bottom: 26px; }
+  .raiderCon .raiderConR {
+    width: 803px;
+    height: 730px;
+    background: #fff; }
+    .raiderCon .raiderConR h2 {
+      width: 803px;
+      height: 97px;
+      position: relative;
+      background: #060405; }
+      .raiderCon .raiderConR h2 img {
+        display: block;
+        height: 28px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+    .raiderCon .raiderConR .raiderConRC {
+      width: 747px;
+      height: 88px;
+      padding: 15px 28px 0 28px;
+      position: relative; }
+      .raiderCon .raiderConR .raiderConRC .raiderConRCC {
+        width: 742x;
+        height: 88px;
+        text-align: center;
+        border-bottom: 1px solid #b5b5b5; }
+        .raiderCon .raiderConR .raiderConRC .raiderConRCC ul {
+          margin: 0 auto;
+          display: inline-block; }
+          .raiderCon .raiderConR .raiderConRC .raiderConRCC ul li {
+            border-bottom: 1px solid #ffffff; }
+            .raiderCon .raiderConR .raiderConRC .raiderConRCC ul li a {
+              display: block;
+              font-size: 17px;
+              color: #848484;
+              font-family: "微软雅黑";
+              width: 115px;
+              height: 86px;
+              line-height: 86px;
+              text-align: center; }
+            .raiderCon .raiderConR .raiderConRC .raiderConRCC ul li .raiderConRCActive {
+              color: #111111;
+              border-bottom: 1px solid #111111; }
+    .raiderCon .raiderConR .raiderConRB {
+      width: 693px;
+      height: 299px;
+      padding: 14px 55px 0 55px;
+      position: relative; }
+      .raiderCon .raiderConR .raiderConRB .raiderWorkCom {
+        width: 693px;
+        height: 299px; }
+        .raiderCon .raiderConR .raiderConRB .raiderWorkCom ul li a {
+          display: block;
+          font: 13px/47px "微软雅黑";
+          color: #424242; }
+          .raiderCon .raiderConR .raiderConRB .raiderWorkCom ul li a span {
+            width: 610px; }
+          .raiderCon .raiderConR .raiderConRB .raiderWorkCom ul li a em {
+            font-style: normal; }
+      .raiderCon .raiderConR .raiderConRB .raiderWorkComNone {
+        display: none; }

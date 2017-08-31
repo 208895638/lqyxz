@@ -1,0 +1,131 @@
+body,html{
+    min-width:1242px;
+    min-height: 2102px;
+}
+.web{
+//  padding-top:880px;
+//  margin-top: 83px;
+}
+.raiderCon{
+    position: relative;
+    padding-top:387px;
+    width:1242px;
+    margin:0 auto;
+
+    .raiderConL{
+        width:383px;
+        height:513px;
+        background: rgba(000,000,000,0.7);
+        ul{
+            li{
+                width: 383px;
+                a{
+                    display: block;
+                    img{
+                        display: block;
+                        margin:0 auto;
+                    }
+                }
+            }
+            li:nth-child(1){
+                img{
+                    padding:29px 0;
+                }
+            }
+            li:nth-child(2){
+                img{
+                    margin-bottom: 40px;
+                }
+            }
+            li:nth-child(3){
+                img{
+                    margin-bottom: 26px;
+                }
+            }
+        }
+    }
+    .raiderConR{
+        width:803px;
+        height:730px;
+        background: #fff;
+        h2{
+           width:803px;
+            height:97px; 
+            position: relative;
+            background: #060405;
+            img{
+                display: block;
+                height:28px;
+                position: absolute;
+                left:0;
+                right:0;
+                top:0;
+                bottom:0;
+                margin:auto;
+            }
+        }
+        .raiderConRC{
+            width:747px;
+            height:88px;
+            padding:15px 28px 0 28px;
+            position: relative;
+            .raiderConRCC{
+                width:742x;
+                height:88px;
+                text-align: center;
+                border-bottom: 1px solid #b5b5b5;
+                ul{
+                    margin:0 auto;
+                    display: inline-block;
+//                  height:88px;
+                    
+                    li{                   
+                        border-bottom: 1px solid #ffffff;
+                        a{
+                            display: block;
+                            font-size: 17px;
+                            color:#848484;
+                            font-family: "微软雅黑";
+                            width:115px;
+                            height:86px;
+                            line-height: 86px;
+                            text-align: center;
+                        }
+                        .raiderConRCActive{
+                            color:#111111;
+                            border-bottom: 1px solid #111111;
+                        }
+                    }
+                }
+            }
+        }
+        .raiderConRB{
+            width:693px;
+            height:299px;
+            padding:14px 55px 0 55px;
+            position: relative;
+            .raiderWorkCom{
+                width:693px;
+                height:299px;
+                ul{
+                    li{
+                        a{
+                            display: block;
+                            font:13px/47px "微软雅黑";
+                            color:#424242;
+                            span{
+                                width:610px;
+                            }
+                            em{
+                               font-style: normal; 
+                            }
+                        }
+                    }
+                }
+            }
+            .raiderWorkComNone{
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+body,html{
+    min-width:1242px;
+    min-height: 2102px;
+}
+.web{
+//  padding-top:880px;
+//  margin-top: 83px;
+}
+.gCCon{
+    position: relative;
+    padding-top:387px;
+    width:1242px;
+    margin:0 auto;
+
+    .gCConL{
+        width:383px;
+        height:513px;
+        background: rgba(000,000,000,0.7);
+        ul{
+            li{
+                width: 383px;
+                a{
+                    display: block;
+                    img{
+                        display: block;
+                        margin:0 auto;
+                    }
+                }
+            }
+            li:nth-child(1){
+                img{
+                    padding:29px 0;
+                }
+            }
+            li:nth-child(2){
+                img{
+                    margin-bottom: 40px;
+                }
+            }
+            li:nth-child(3){
+                img{
+                    margin-bottom: 26px;
+                }
+            }
+        }
+    }
+    .gCConR{
+        width:803px;
+        height:730px;
+        background: #fff;
+        h2{
+           width:803px;
+            height:97px; 
+            position: relative;
+            background: #060405;
+            img{
+                display: block;
+                height:28px;
+                position: absolute;
+                left:0;
+                right:0;
+                top:0;
+                bottom:0;
+                margin:auto;
+            }
+        }
+        .gCConRCon{
+            width:699px;
+            height:600px;
+            padding:33px 52px 0 52px;
+            h3{                
+                a{
+                    display: block;
+                    font:24px/46px "微软雅黑";
+                    text-align: center;
+                    color:#000000;
+                    font-weight: 600;
+                }
+            }
+            h4{
+                span,em{
+                    font:9px/35px "微软雅黑";
+                    color:#989898;
+                    font-style: normal;
+                }
+                em{
+                    margin-right: 6px;
+                }
+            }
+            p{
+                font:12px/24px "微软雅黑";
+            }
+        }
+        
+    }
+}

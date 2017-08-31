@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body {
+  min-width: 1200px;
+  background: #EBF3F7 url(../img/web_index_bg.png) no-repeat center;
+  background-size: cover;
+  padding-top: 84px; }
+
+html {
+  height: auto; }
+
+.web {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99; }
+  .web .webCon {
+    width: 100%;
+    background: #000;
+    height: 84px;
+    margin: 0 auto;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99; }
+    .web .webCon .webTopCon {
+      width: 967px;
+      height: 64px;
+      background: #000;
+      margin: 0 auto;
+      position: relative;
+      padding-left: 233px;
+      padding-top: 20px; }
+      .web .webCon .webTopCon .webLogo {
+        position: absolute;
+        top: 20px;
+        left: 23px; }
+        .web .webCon .webTopCon .webLogo img {
+          display: block;
+          height: 113px; }
+      .web .webCon .webTopCon ul li {
+        width: 161px;
+        height: 64px; }
+        .web .webCon .webTopCon ul li a {
+          display: block; }
+          .web .webCon .webTopCon ul li a dl {
+            width: 100%; }
+            .web .webCon .webTopCon ul li a dl dt {
+              width: 161px;
+              height: 35px;
+              text-align: center;
+              font-size: 17px;
+              line-height: 35px;
+              color: #d4d4d4; }
+            .web .webCon .webTopCon ul li a dl dd {
+              width: 100%;
+              height: 18px;
+              text-align: center;
+              font-size: 8px;
+              line-height: 18px;
+              color: #828282; }
+            .web .webCon .webTopCon ul li a dl .webTopConColor {
+              color: #cdb15c; }
+            .web .webCon .webTopCon ul li a dl .webTopConColors {
+              color: #cdb15c; }
+      .web .webCon .webTopCon .webTopR .webTopRCon {
+        cursor: pointer; }
+        .web .webCon .webTopCon .webTopR .webTopRCon b {
+          height: 64px;
+          line-height: 50px;
+          font-size: 12px;
+          color: #a69365; }
+        .web .webCon .webTopCon .webTopR .webTopRCon span {
+          position: relative;
+          margin-right: 17px; }
+          .web .webCon .webTopCon .webTopR .webTopRCon span .webTopRConT {
+            display: block;
+            height: 28px;
+            margin-top: 10px;
+            margin-left: 9px; }
+          .web .webCon .webTopCon .webTopR .webTopRCon span .webTopRConTNone {
+            display: none; }
+          .web .webCon .webTopCon .webTopR .webTopRCon span .webTopRConB {
+            background: #000 url(../img/web_box.png) no-repeat;
+            background-size: cover;
+            display: block;
+            position: absolute;
+            left: -17px;
+            top: 42px;
+            width: 79px;
+            padding-top: 14px;
+            height: 76px; }
+            .web .webCon .webTopCon .webTopR .webTopRCon span .webTopRConB dl {
+              width: 100%;
+              height: 100%; }
+              .web .webCon .webTopCon .webTopR .webTopRCon span .webTopRConB dl dt img {
+                display: block;
+                margin: 0 11px 0px 8px; }
+              .web .webCon .webTopCon .webTopR .webTopRCon span .webTopRConB dl dd {
+                font-size: 10px;
+                color: #232323;
+                text-align: center;
+                font-style: normal;
+                font-family: "微软雅黑"; }
+          .web .webCon .webTopCon .webTopR .webTopRCon span .webTopRConNone {
+            display: none; }
+        .web .webCon .webTopCon .webTopR .webTopRCon em {
+          position: relative; }
+          .web .webCon .webTopCon .webTopR .webTopRCon em .webTopRConT {
+            display: block;
+            height: 28px;
+            margin-top: 10px;
+            margin-right: 25px; }
+          .web .webCon .webTopCon .webTopR .webTopRCon em .webTopRConB {
+            background: #000 url(../img/web_box.png) no-repeat;
+            background-size: cover;
+            display: block;
+            position: absolute;
+            left: -26px;
+            top: 42px;
+            width: 79px;
+            padding-top: 14px;
+            height: 76px; }
+            .web .webCon .webTopCon .webTopR .webTopRCon em .webTopRConB dl {
+              width: 100%;
+              height: 100%; }
+              .web .webCon .webTopCon .webTopR .webTopRCon em .webTopRConB dl dt img {
+                display: block;
+                margin: 0 11px 0px 8px; }
+              .web .webCon .webTopCon .webTopR .webTopRCon em .webTopRConB dl dd {
+                font-size: 10px;
+                color: #232323;
+                text-align: center;
+                font-style: normal;
+                font-family: "微软雅黑"; }
+          .web .webCon .webTopCon .webTopR .webTopRCon em .webTopRConNone {
+            display: none; }

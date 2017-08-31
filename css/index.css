@@ -1,0 +1,562 @@
+@charset "UTF-8";
+.swiper-pagination-bullet-active {
+  background: #dfc77f !important; }
+
+.swiper-pagination {
+  z-index: 100; }
+
+.index {
+  width: 100%; }
+  .index .indexFix {
+    position: fixed;
+    width: 40px;
+    height: 100%;
+    top: 0px;
+    right: 3px;
+    z-index: 99; }
+    .index .indexFix .indexFixNone {
+      display: none; }
+    .index .indexFix .indexFixC {
+      position: relative;
+      width: 100%;
+      height: 100%; }
+      .index .indexFix .indexFixC .indexFixT {
+        position: absolute;
+        top: 30%;
+        top: calc(50% - 70px);
+        top: -moz-calc(50% - 70px);
+        top: -webkit-calc(50% - 70px);
+        right: 1px;
+        cursor: pointer; }
+        .index .indexFix .indexFixC .indexFixT img {
+          height: 39px;
+          display: block; }
+      .index .indexFix .indexFixC .indexFixB {
+        position: absolute;
+        top: calc(50% + 30px);
+        top: -moz-calc(50% + 30px);
+        top: -webkit-calc(50% + 30px);
+        right: 1px;
+        cursor: pointer; }
+        .index .indexFix .indexFixC .indexFixB img {
+          height: 39px;
+          display: block; }
+  .index .indexCon {
+    width: 100%; }
+    .index .indexCon .indexFirst {
+      width: 100%;
+      position: relative;
+      background-size: cover; }
+      .index .indexCon .indexFirst #video {
+        width: 100%;
+        position: absolute;
+        height: 100%; }
+      .index .indexCon .indexFirst .indexFirstCon {
+        position: relative;
+        width: 1201px;
+        height: 100%;
+        padding-top: 5%;
+        margin: 0 auto; }
+        .index .indexCon .indexFirst .indexFirstCon .indexFMainT {
+          width: 100%;
+          height: 100%; }
+          .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTL {
+            height: 12%; }
+            .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTL img {
+              display: block;
+              height: 100%; }
+          .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR {
+            height: 8%;
+            margin-top: 4.3%; }
+            .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRT {
+              margin-bottom: 8%; }
+              .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRT ul {
+                height: 37%; }
+                .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRT ul li {
+                  margin-right: 22px; }
+                  .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRT ul li a {
+                    display: block;
+                    height: 100%; }
+                    .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRT ul li a img {
+                      height: 100%; }
+            .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB {
+              height: 37%; }
+              .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB span {
+                color: #a69365;
+                display: block;
+                height: 28px;
+                line-height: 28px;
+                font-size: 12px;
+                margin-right: 16px;
+                font-family: "微软雅黑"; }
+              .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB ul li {
+                margin-right: 9px; }
+                .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB ul li a {
+                  display: block; }
+                  .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB ul li a img {
+                    display: block;
+                    width: 28px; }
+                .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB ul li em {
+                  display: block; }
+                  .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB ul li em img {
+                    display: block;
+                    height: 90px; }
+              .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB .indexFMainTRBDisImg {
+                position: relative;
+                top: 36px;
+                left: 18px; }
+                .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB .indexFMainTRBDisImg .indexFMainTRBDisImgCon {
+                  position: absolute; }
+                  .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB .indexFMainTRBDisImg .indexFMainTRBDisImgCon .indexFMainTRBDisImgN {
+                    opacity: 0;
+                    filter: Alpha(opacity=50); }
+                  .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB .indexFMainTRBDisImg .indexFMainTRBDisImgCon em {
+                    display: block; }
+                    .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB .indexFMainTRBDisImg .indexFMainTRBDisImgCon em img {
+                      display: inline-block;
+                      width: 79px; }
+                  .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB .indexFMainTRBDisImg .indexFMainTRBDisImgCon em:nth-child(2) {
+                    margin-left: -42px; }
+                  .index .indexCon .indexFirst .indexFirstCon .indexFMainT .indexFMainTR .indexFMainTRB .indexFMainTRBDisImg .indexFMainTRBDisImgCon em:nth-child(3) {
+                    margin-left: -42px; }
+        .index .indexCon .indexFirst .indexFirstCon .indexFMainB {
+          position: absolute;
+          width: 100%;
+          height: 37%;
+          left: 0;
+          right: 0;
+          bottom: 10%;
+          margin: 0 auto; }
+          .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBT {
+            height: 58%; }
+            .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBT img {
+              display: block;
+              margin: 0 auto;
+              height: 100%; }
+          .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBB {
+            cursor: pointer;
+            display: inline-block;
+            width: 468px;
+            height: 131px;
+            padding-top: 9px;
+            padding-left: 18px;
+            background: url(../img/index_radius.png) no-repeat center;
+            background-size: cover; }
+            .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBB .indexFMainBBL {
+              margin-right: 12px; }
+              .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBB .indexFMainBBL img {
+                height: 119px;
+                display: block;
+                animation: myfirst 5s infinite linear; }
+
+@keyframes myfirst {
+  from {
+    transform: rotate(180deg); }
+  to {
+    transform: rotate(-180deg); } }
+            .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBB .indexFMainBBC {
+              margin-right: 16px; }
+              .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBB .indexFMainBBC img {
+                display: block;
+                height: 49px;
+                width: 172px; }
+              .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBB .indexFMainBBC img:nth-child(1) {
+                margin: 6px 0 11px 0; }
+            .index .indexCon .indexFirst .indexFirstCon .indexFMainB .indexFMainBB .indexFMainBBR img {
+              display: block;
+              width: 121px; }
+    .index .indexCon .indexSec {
+      width: 100%;
+      height: 100%;
+      background: url(../img/index2_bg.png) no-repeat;
+      background-size: cover; }
+      .index .indexCon .indexSec .indexSecCon {
+        width: 1201px;
+        height: 85%;
+        padding-top: 15%;
+        margin: 0 auto; }
+        .index .indexCon .indexSec .indexSecCon .indexSecT {
+          height: 24%; }
+          .index .indexCon .indexSec .indexSecCon .indexSecT img {
+            display: block;
+            height: 19%;
+            margin: 0 auto; }
+        .index .indexCon .indexSec .indexSecCon .indexSecB {
+          width: 100%;
+          height: 43%; }
+          .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBT {
+            width: 42%;
+            height: 100%;
+            position: relative; }
+            .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBT b {
+              display: block;
+              width: 100%;
+              height: 100%;
+              border: 1px solid #bfa059;
+              margin: 0 auto; }
+              .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBT b img {
+                display: block;
+                height: 100%;
+                margin: 0 auto; }
+            .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBT span img {
+              position: absolute;
+              display: block;
+              width: 68px;
+              left: 0;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              margin: auto;
+              cursor: pointer; }
+          .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBB {
+            margin: 0 auto;
+            width: 42%;
+            height: 98%;
+            padding: 1% 0;
+            font-size: 13px;
+            color: #eaeae9;
+            line-height: 21px;
+            text-align: left;
+            position: relative; }
+            .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBB h2 {
+              width: 100%;
+              color: #bba967;
+              font: 29px/42px "微软雅黑";
+              text-align: center;
+              margin-bottom: 8px; }
+            .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBB .indexSecBBT {
+              width: 100%;
+              background: url(../img/index_title_line.png) no-repeat center top;
+              height: 100% !important;
+              overflow-y: auto;
+              padding-top: 23px; }
+              .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBB .indexSecBBT p {
+                line-height: 21px;
+                text-align: center;
+                font-size: 14px; }
+          .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBBZheZhao {
+            width: 100%;
+            height: 100%;
+            background: #000;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 999; }
+            .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBBZheZhao .indexSecBBZheZhaoCon {
+              width: 100%;
+              height: 100%;
+              position: relative;
+              left: 0;
+              top: 0; }
+              .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBBZheZhao .indexSecBBZheZhaoCon video {
+                width: 500px;
+                height: 500px;
+                border: 1px solid #fff;
+                margin: auto;
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                display: block; }
+          .index .indexCon .indexSec .indexSecCon .indexSecB .indexSecBBZheZhaoNone {
+            display: none; }
+    .index .indexCon .indexThree {
+      width: 100%;
+      height: 100%;
+      background: url(../img/index3_bg.png) no-repeat;
+      background-size: cover; }
+      .index .indexCon .indexThree .indexTCon {
+        position: relative;
+        width: 1401px;
+        height: 85%;
+        padding-top: 15%;
+        margin: 0 auto; }
+        .index .indexCon .indexThree .indexTCon .indexTConT {
+          height: 17%; }
+          .index .indexCon .indexThree .indexTCon .indexTConT img {
+            display: block;
+            height: 24%;
+            margin: 0 auto; }
+        .index .indexCon .indexThree .indexTCon .indexTConB {
+          width: 100%;
+          height: 50%;
+          position: relative; }
+          .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT {
+            z-index: 99;
+            display: inline-block;
+            margin: 0 auto;
+            height: 100%; }
+            .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li {
+              height: 100%; }
+              .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a {
+                height: 100%;
+                display: block; }
+                .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTN {
+                  height: 86%; }
+                  .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTN img {
+                    display: block;
+                    height: 100%; }
+                .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS {
+                  height: 100%;
+                  position: relative; }
+                  .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS dl {
+                    display: block;
+                    height: 100%; }
+                    .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS dl dt {
+                      height: 86%; }
+                      .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS dl dt img {
+                        display: block;
+                        height: 100%; }
+                    .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS dl dd {
+                      height: 13.4%; }
+                      .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS dl dd img {
+                        display: block;
+                        height: 100%; }
+                  .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS span {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto; }
+                    .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS span em {
+                      width: 100%;
+                      height: 100%;
+                      position: relative;
+                      display: block; }
+                      .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTS span em img {
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        margin: auto;
+                        height: 61px;
+                        display: block; }
+                .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBT li a .indexTConBTSNone {
+                  display: none; }
+          .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBB {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            width: 1165px; }
+            .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBB li a {
+              position: relative;
+              left: 0;
+              top: 0;
+              display: block; }
+              .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBB li a dl {
+                display: block; }
+                .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBB li a dl dt img {
+                  display: block;
+                  width: 194px; }
+                .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBB li a dl dd img {
+                  display: block;
+                  width: 194px; }
+              .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBB li a span {
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto; }
+                .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBB li a span em {
+                  width: 100%;
+                  height: 100%;
+                  position: relative;
+                  display: block; }
+                  .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBB li a span em img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                    height: 61px;
+                    display: block; }
+          .index .indexCon .indexThree .indexTCon .indexTConB .indexTConBBNone {
+            display: none; }
+    .index .indexCon .indexFour {
+      background: url(../img/index4_bg.png) no-repeat;
+      background-size: cover;
+      overflow-y: hidden; }
+      .index .indexCon .indexFour .indexF {
+        width: 1201px;
+        margin: 0 auto;
+        height: 85%;
+        padding-top: 15%; }
+        .index .indexCon .indexFour .indexF .indexFcon {
+          height: 13%; }
+          .index .indexCon .indexFour .indexF .indexFcon img {
+            display: block;
+            height: 32%;
+            margin: 0 auto; }
+        .index .indexCon .indexFour .indexF .indexFB {
+          width: 100%;
+          height: 70%; }
+          .index .indexCon .indexFour .indexF .indexFB .swiper2 {
+            width: 100%;
+            height: 81%; }
+            .index .indexCon .indexFour .indexF .indexFB .swiper2 .swiper2Con {
+              width: 100%;
+              height: 100%; }
+              .index .indexCon .indexFour .indexF .indexFB .swiper2 .swiper2Con .swiper2ConL {
+                width: auto;
+                height: 100%; }
+                .index .indexCon .indexFour .indexF .indexFB .swiper2 .swiper2Con .swiper2ConL img {
+                  display: block;
+                  width: auto;
+                  height: 100%; }
+    .index .indexCon .indexFive {
+      width: 100%;
+      height: 100%; }
+      .index .indexCon .indexFive .indexFi {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background: #202020; }
+        .index .indexCon .indexFive .indexFi .indexFiCon {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: #202020; }
+          .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg {
+            width: 100%;
+            height: 57%;
+            background: url(../img/index_bot_bg.png) no-repeat center;
+            background-size: cover;
+            padding-top: 10%;
+            text-align: center;
+            position: relative; }
+            .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg h2 {
+              width: 32px;
+              height: 3px;
+              background: #fff;
+              margin: 14px auto; }
+            .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg h3, .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg h4 {
+              font: 19px/38px "微软雅黑";
+              text-align: center;
+              color: #e9e9ea; }
+            .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg ul {
+              width: 1200px;
+              padding-top: 6%;
+              height: 45%;
+              margin: 0 auto; }
+              .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg ul li {
+                margin-left: 15.5%;
+                height: 100%; }
+                .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg ul li dl {
+                  height: 100%; }
+                  .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg ul li dl dt {
+                    height: 58%;
+                    margin-bottom: 25px; }
+                    .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg ul li dl dt img {
+                      display: block;
+                      height: 100%; }
+                  .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg ul li dl dd {
+                    line-height: 24px;
+                    text-align: center;
+                    font-size: 15px;
+                    color: #a7a7a7; }
+              .index .indexCon .indexFive .indexFi .indexFiCon .inFiBg ul li:nth-child(2) {
+                margin-right: 15.5%; }
+          .index .indexCon .indexFive .indexFi .indexFiCon .indexFiConB {
+            width: 100%;
+            background: #000;
+            height: 28%;
+            padding-top: 2%; }
+            .index .indexCon .indexFive .indexFi .indexFiCon .indexFiConB p {
+              font-size: 12px;
+              color: #b8b8b8;
+              text-align: center;
+              line-height: 24px; }
+
+@media screen and (min-height: 700px) {
+  .indexFive {
+    width: 100%;
+    height: 100%; }
+    .indexFive .indexFi {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: #202020; }
+      .indexFive .indexFi .indexFiCon {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: #202020; }
+        .indexFive .indexFi .indexFiCon .inFiBg {
+          width: 100%;
+          height: 57%;
+          background: url(../img/index_bot_bg.png) no-repeat center;
+          background-size: cover;
+          padding-top: 10%;
+          text-align: center;
+          position: relative; }
+          .indexFive .indexFi .indexFiCon .inFiBg h2 {
+            width: 32px;
+            height: 3px;
+            background: #fff;
+            margin: 14px auto; }
+          .indexFive .indexFi .indexFiCon .inFiBg h3, .indexFive .indexFi .indexFiCon .inFiBg h4 {
+            font: 19px/38px "微软雅黑";
+            text-align: center;
+            color: #e9e9ea; }
+          .indexFive .indexFi .indexFiCon .inFiBg ul {
+            width: 1200px;
+            padding-top: 10%;
+            height: 41%;
+            margin: 0 auto; }
+            .indexFive .indexFi .indexFiCon .inFiBg ul li {
+              margin-left: 15.5%;
+              height: 100%; }
+              .indexFive .indexFi .indexFiCon .inFiBg ul li dl {
+                height: 100%; }
+                .indexFive .indexFi .indexFiCon .inFiBg ul li dl dt {
+                  height: 80% !important;
+                  margin-bottom: 25px; }
+                  .indexFive .indexFi .indexFiCon .inFiBg ul li dl dt img {
+                    display: block;
+                    height: 100%; }
+                .indexFive .indexFi .indexFiCon .inFiBg ul li dl dd {
+                  line-height: 24px;
+                  text-align: center;
+                  font-size: 15px;
+                  color: #a7a7a7; }
+            .indexFive .indexFi .indexFiCon .inFiBg ul li:nth-child(2) {
+              margin-right: 15.5%; }
+        .indexFive .indexFi .indexFiCon .indexFiConB {
+          width: 100%;
+          background: #000;
+          height: 25% !important;
+          padding-top: 5% !important; }
+          .indexFive .indexFi .indexFiCon .indexFiConB p {
+            font-size: 12px;
+            color: #b8b8b8;
+            text-align: center;
+            line-height: 24px; } }
+
+.videoMain {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999; }
+  .videoMain video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+
+.videoMainNone {
+  display: none; }

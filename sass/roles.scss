@@ -1,0 +1,186 @@
+body,html{
+    width:100%;
+    height:100%;
+    
+}
+
+.swiper-button-next{
+    background: url(../img/roles_right.png) no-repeat center;
+    background-size:cover ;
+    width:123px!important;
+    height:94px!important;
+    right:10%!important;
+}
+.swiper-button-prev{
+    background: url(../img/roles_left.png) no-repeat center;
+    background-size:cover ;
+    width:123px!important;
+    height:94px!important;
+    left:10%!important;
+}
+.swiper-pagination-bullet{
+    background: url(../img/roles_fenye.png) no-repeat center;
+    background-size:22% ;
+    width:110px!important;
+    height:30px!important;
+    margin-right: 3%!important;
+    opacity: 1!important;
+    filter: alpha(opacity=100)!important;
+}
+.swiper-pagination-bullet-active{
+    background: url(../img/roles_fenye_active.png) no-repeat center;
+    width:110px!important;
+    height:44px!important;
+    opacity: 1!important;
+    margin-right: 3%!important;
+    background-size: 60%!important;   
+    filter: alpha(opacity=100)!important;
+}
+.rolesCon{
+    width:100%;
+    height:100%;    
+    .rolesC{
+        width:100%;
+        height:100%;
+        .rolesCC{
+            width:100%;
+            height:100%;
+            .rolesFir{
+                width:100%;
+                height:100%;
+                background: url(../img/roles_lst_bg.png) no-repeat center;
+                background-size: cover;
+                .rolesFirCon{
+                    width:1582px;
+
+                    margin:0 auto;
+                    position: relative;                    
+                    .rolesLogo{
+                        position: fixed;
+                        top:56px;
+                        left:6%;
+                        z-index: 99;
+                    }
+                    .rolesFirC{
+                        
+                        margin-left:290px;
+                        span,em{
+                            display: block;
+                            img{
+                                display: block;
+                            }
+                        }
+                        span{
+                            margin-right: 19px;
+                            img{
+                                height:176px;
+                            }
+                        }
+                        em{
+                            width:200px;
+                            height:176px;
+                            position: relative;
+                            img{
+                                height:58px;
+                                position: absolute;
+                                top: 0;
+                                bottom:0;
+                                left:0;
+                                right:0;
+                                margin:auto 0;
+                            }
+                        }
+                    }
+                    .rolesFirCC{
+                        width:270px;
+                        height:193px;
+                        padding-top:30px;
+                        margin-left:290px;
+                        p{
+                            font:12px/26px "微软雅黑";
+                            color:#ffffff;
+                            text-align: left;
+                        }
+                    }
+                    .rolesFirCB{
+                        width:346px;
+                        height:102px;
+                        margin-left:290px;
+                        img{
+                            display: block;
+                            height:100%;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .rolesSec{
+                background: url(../img/roles_fon_bg.png) no-repeat center;
+                background-size: cover;
+            }
+            .rolesThr{
+                background: url(../img/roles_ky_bg.png) no-repeat center;
+                background-size: cover;
+            }
+            .rolesFor{
+                background: url(../img/roles_l_bg.png) no-repeat center;
+                background-size: cover;
+            }
+            .rolesFiv{
+                background: url(../img/roles_yf_bg.png) no-repeat center;
+                background-size: cover;
+            }
+            .rolesSix{
+                background: url(../img/roles_hk_bg.png) no-repeat center;
+                background-size: cover;
+            }
+        }
+    }
+}
+.rolesLine{
+    width:100%;
+    height:2px;
+    color:#bba57c;
+    position: absolute;
+    left:0;
+    bottom:28px;
+    background: #bba57c;
+    z-index: 99;
+}
+@media screen and (min-width:1600px){
+   .rolesFirCC {
+       padding-bottom: 20px!important;
+       height:250px!important;
+       p{
+           font: 16px/28px "微软雅黑"!important;
+           
+       }
+   }
+  
+}
+.rolesVideo{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index: 99;
+    background:rgba(000,000,000,0.6 );
+    .rolesVideoC{
+        width:100%;
+        height:100%;
+        position: relative;
+        video{
+            position: absolute;
+            right:0;
+            bottom: 0;
+            left:0;
+            top:0;
+            margin:auto;
+            display: block;
+        }
+    }
+}
+.rolesVideoNone{
+    display: none;
+}
